@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media only screen and (max-width:992px) {
+    #sidebar{
+        @apply -left-72;
+    }
+    #menubar.active
+    {
+       @apply left-0;
+    }
+}
